@@ -8,8 +8,6 @@
 import SwiftUI
 var turnScore = ""
 var gameScore = ""
-@State private var randomValue = 0
-@State private var rotation = 0.0
 
 
 
@@ -18,7 +16,7 @@ struct ContentView: View {
         VStack {
             Color.gray.opacity(0.7).ignoresSafeArea()
             VStack {
-                Image("Pig").resizable().frame(width: 150, height: 150)
+                Image("Pigg").resizable().frame(width: 150, height: 150)
                 CustomText(text: "Turn Score: \(turnScore)")
                 Spacer()
             }
